@@ -20,7 +20,6 @@ export default function Home() {
         <NavbarLayoutFloatingInline
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-m-1759141336941-a1829fae.jpg"
           onButtonClick={() => {}} // Correct prop
-          leftButtonText=""
           buttonText="Buy MemePulse"
         />
       </div>
