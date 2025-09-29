@@ -19,14 +19,13 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-m-1759141336941-a1829fae.jpg"
-          onLeftButtonClick={() => {}} // Placeholder
+          onButtonClick={() => {}} // Correct prop
           leftButtonText=""
-          onRightButtonClick={() => {}} // Placeholder
           buttonText="Buy MemePulse"
         />
       </div>
 
-      <div id="hero" data-section="hero" style={{ background: 'bright gradient with neon accents' }}>
+      <div id="hero" data-section="hero">
         <SimpleHero
           title="Welcome to MemePulse"
           description="Join the fun and vibrant world of memecoins!"
