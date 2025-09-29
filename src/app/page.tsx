@@ -19,11 +19,10 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-m-1759141336941-a1829fae.jpg"
-          logoAlt="MemePulse Logo"
           onLeftButtonClick={() => {}} // Placeholder
           leftButtonText=""
           onRightButtonClick={() => {}} // Placeholder
-          rightButtonText="Buy MemePulse"
+          buttonText="Buy MemePulse"
         />
       </div>
 
@@ -62,7 +61,6 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <GradientFooter
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/tmp/design-a-simple-high-contrast-logo-for-m-1759141336941-a1829fae.jpg"
-          logoAlt="MemePulse Logo"
           copyrightText="© 2023 MemePulse. All rights reserved."
           columns={[
             { title: "Community", items: [{ label: "Discord", onClick: () => {} }, { label: "Twitter", onClick: () => {} }] },
